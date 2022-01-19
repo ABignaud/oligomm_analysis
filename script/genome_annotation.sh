@@ -36,7 +36,7 @@ dnaglider -fasta $fasta -stride 1000 -window 5000 -threads $threads \
     -out annotation/"$prefix"_gcskew.bed -fields GCSKEW
 
 # Run annotation pipeline.
-if [ $annotation_pipeline = prokk ]
+if [ $annotation_pipeline = prokka ]
 then
     # Run prokka annotation pipeline
     echo "Run prokka anotation pipeline..."
