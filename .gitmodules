@@ -1,0 +1,4 @@
+[submodule "bacchus"]
+	path = bacchus
+	url = https://github.com/ABignaud/bacchus.git
+	branch = main
