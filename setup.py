@@ -15,10 +15,7 @@ CLASSIFIERS = [
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3 :: Only",
-    "Programming Language :: Python :: 3.6",
     "Programming Language :: Python :: 3.7",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
     "Topic :: Scientific/Engineering",
     "Topic :: Scientific/Engineering :: Bio-Informatics",
     "Topic :: Scientific/Engineering :: Visualization",
@@ -27,7 +24,7 @@ CLASSIFIERS = [
 
 name = "oligomm"
 
-MAJOR = 0
+MAJOR = 1
 MINOR = 0
 MAINTENANCE = 0
 VERSION = "{}.{}.{}".format(MAJOR, MINOR, MAINTENANCE)
@@ -57,7 +54,7 @@ setup(
     classifiers=CLASSIFIERS,
     url=URL,
     packages=find_packages(),
-    python_requires=">=3.6",
+    python_requires="==3.7",
     include_package_data=True,
     long_description_content_type="text/markdown",
     install_requires=REQUIREMENTS,
