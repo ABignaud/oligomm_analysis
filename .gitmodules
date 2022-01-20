@@ -2,3 +2,4 @@
 	path = bacchus
 	url = https://github.com/ABignaud/bacchus.git
 	branch = main
+	tag = v1.0.0
