@@ -21,12 +21,12 @@ pip install -e .
 
 If you want to run the annotation workflow, you have to make sure that the following software have been correctly installed (especially the database for the annotation pipelines), otherwise you can launch it with the `--skip-annotation` parameter to avoid ro install them:
 
-- dnaglider v0.0.5 (https://github.com/cmdoret/dnaglider)
-- prokka v1.14.6 (https://github.com/tseemann/prokka)
-- seqkit v2.1.0 (https://bioinf.shenwei.me/seqkit/)
-- checkV v0.8.6 (https://bitbucket.org/berkeleylab/checkv/src/master/)
-- virsorter v2.2.3 (https://github.com/jiarong/VirSorter2)
-- VIBRANT v3.6 (https://github.com/AnantharamanLab/VIBRANT)
+- dnaglider v0.0.5 (<https://github.com/cmdoret/dnaglider>)
+- prokka v1.14.6 (<https://github.com/tseemann/prokka>)
+- seqkit v2.1.0 (<https://bioinf.shenwei.me/seqkit/>)
+- checkV v0.8.6 (<https://bitbucket.org/berkeleylab/checkv/src/master/>)
+- virsorter v2.2.3 (<https://github.com/jiarong/VirSorter2>)
+- VIBRANT v3.6 (<https://github.com/AnantharamanLab/VIBRANT>)
 
 ## Quick start
 
