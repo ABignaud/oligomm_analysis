@@ -1,4 +1,4 @@
-name: test_oligomm2
+name: oligomm
 channels:
   - bioconda
   - conda-forge
@@ -370,7 +370,6 @@ dependencies:
   - pyfastx=0.8.4=py37h190e900_0
   - pyopenssl=21.0.0=pyhd3eb1b0_1
   - pyparsing=3.0.6=pyhd8ed1ab_0
-  - pypy3.7=7.3.7=hbc09475_3
   - pyqt=5.12.3=py37h89c1867_8
   - pyqt-impl=5.12.3=py37hac37412_8
   - pyqt5-sip=4.19.18=py37hcd2ae1e_8
@@ -435,4 +434,3 @@ dependencies:
   - zipp=3.7.0=pyhd8ed1ab_0
   - zlib=1.2.11=h36c2ea0_1013
   - zstd=1.4.9=haebb681_0
-prefix: /home/rsg/anaconda3/envs/test_oligomm2

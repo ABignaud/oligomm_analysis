@@ -12,9 +12,9 @@ The analysis from the paper are described in the notebook repository. Useful fun
 A quick installation to launch the comman line tools with most of the dependencies installed can be done with the conda environment file. The python package needs to be installed as editable to access correctly the bash scripts.
 
 ```bash
-git clone
+git clone https://github.com/ABignaud/oligomm_analysis.git
 cd oligomm_analysis
-conda create -n oligomm --file oligomm.yml
+conda env create --file oligomm.yml
 conda activate oligomm
 pip install -e .
 ```
