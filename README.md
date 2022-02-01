@@ -12,11 +12,12 @@ The analysis from the paper are described in the notebook repository. Useful fun
 A quick installation to launch the comman line tools with most of the dependencies installed can be done with the conda environment file. The python package needs to be installed as editable to access correctly the bash scripts.
 
 ```bash
-git clone https://github.com/ABignaud/oligomm_analysis.git
+git clone --recurse-submodules https://github.com/ABignaud/oligomm_analysis.git
 cd oligomm_analysis
 conda env create --file oligomm.yml
 conda activate oligomm
-pip install -e .
+pip install .
+pip install ./bacchus/
 ```
 
 If you want to run the annotation workflow, you have to make sure that the following software have been correctly installed (especially the database for the annotation pipelines), otherwise you can launch it with the `--skip-annotation` parameter to avoid ro install them:
